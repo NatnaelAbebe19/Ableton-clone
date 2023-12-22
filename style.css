@@ -1,0 +1,7 @@
+.navBar {
+  display: flex;
+}
+.leftNav--ul {
+  display: flex;
+  list-style: none;
+}

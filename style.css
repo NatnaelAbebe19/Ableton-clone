@@ -153,17 +153,17 @@ ul#navbar--2 {
 }
 /*message--2*/
 
-.message2 {
+.message--2 {
   max-width: 55%;
   margin: 8rem auto;
 }
-.message2 h2 {
+.message--2 h2 {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2rem;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-.message2 p {
+.message--2 p {
   font-size: 1.2rem;
   font-weight: 200;
 }
@@ -180,6 +180,8 @@ ul#navbar--2 {
 .video--container p {
   font-size: 12px;
 }
+
+/*Message 3*/
 
 /* @keyframes fadeOut {
       from {

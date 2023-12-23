@@ -110,6 +110,8 @@ ul#navbar--2 {
   color: #ff764d;
 }
 
+/*Message--1*/
+
 .message {
   max-width: 60%;
   font-size: 20px;
@@ -149,7 +151,35 @@ ul#navbar--2 {
   top: 9rem;
   width: 500px;
 }
-/*message 2*/
+/*message--2*/
+
+.message2 {
+  max-width: 55%;
+  margin: 8rem auto;
+}
+.message2 h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.message2 p {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/*Video*/
+.video--container {
+  width: 50%;
+  margin: 10px auto;
+}
+.video {
+  width: 560px;
+  height: 315px;
+}
+.video--container p {
+  font-size: 12px;
+}
 
 /* @keyframes fadeOut {
       from {

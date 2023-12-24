@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-family: "Roboto", Helvetica, sans-serif;
 }
 .navBar {
@@ -124,10 +126,16 @@ ul#navbar--2 {
   color: #ff0000;
 }
 
+.center--div {
+  margin: 0 auto;
+}
+
 /*The hero*/
 
 .hero {
-  height: 90vh;
+  /* height: 90vh; */
+  width: 1150px;
+  height: 500px;
   background-image: url("./images/header.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,12 +195,14 @@ ul#navbar--2 {
   max-width: 55%;
   margin: 8rem auto;
 }
+
 .message--2 h2 {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2rem;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
 .message--2 p {
   font-size: 1.2rem;
   font-weight: 200;
@@ -203,6 +213,7 @@ ul#navbar--2 {
   width: 50%;
   margin: 10px auto;
 }
+
 .video {
   width: 560px;
   height: 315px;
@@ -240,6 +251,84 @@ ul#navbar--2 {
 .img--two {
   top: 35rem;
   left: 5rem;
+}
+.hero2 {
+  background-image: url("./images/photo-6.jpeg");
+  background-size: cover;
+  width: 1150px;
+  height: 500px;
+  margin: 40px auto;
+}
+.backsit3 {
+  width: 910px;
+  height: 796px;
+  background: #d5b3ff;
+  z-index: 0;
+}
+.picture3 {
+  position: relative;
+}
+
+.image1 {
+  position: absolute;
+  left: 8rem;
+  top: 14rem;
+  background-image: url("./images/photo-6-a.jpeg");
+  background-position: top left;
+  background-size: cover;
+  width: 455px;
+  height: 341px;
+  z-index: 1;
+}
+.image2 {
+  position: absolute;
+  right: 4rem;
+  bottom: 7rem;
+  background-image: url("./images/photo-7.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 569px;
+  height: 569px;
+  z-index: 1;
+}
+
+.qoute {
+  width: 1139px;
+  height: 569px;
+  /* place-content: center; */
+  margin: 10rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #fffdad;
+}
+
+.qoute--img,
+.qoute--p {
+  /* width: 569px;
+  height: 569px; */
+}
+
+.qoute--img {
+  background-image: url("./images/photo-8.jpeg");
+  background-size: cover;
+}
+.qoute--p {
+  background: #b1c5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  word-spacing: 6px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+.qoute--p h2 {
+  width: 341px;
+  height: 282px;
+}
+.qoute--p h2:last-child a {
+  color: blue;
 }
 
 /* @keyframes fadeOut {

@@ -330,9 +330,7 @@ ul#navbar--2 {
   margin: 2rem 4rem;
   gap: 1.5rem;
 }
-.box {
-  /* background: tomato; */
-}
+
 ul.footer--list li {
   list-style-type: none;
   line-height: 1.6;

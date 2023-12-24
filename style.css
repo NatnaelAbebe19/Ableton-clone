@@ -296,16 +296,10 @@ ul#navbar--2 {
   width: 1139px;
   height: 569px;
   /* place-content: center; */
-  margin: 10rem auto;
+  margin: 9rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: #fffdad;
-}
-
-.qoute--img,
-.qoute--p {
-  /* width: 569px;
-  height: 569px; */
 }
 
 .qoute--img {
@@ -330,7 +324,90 @@ ul#navbar--2 {
 .qoute--p h2:last-child a {
   color: blue;
 }
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem 4rem;
+  gap: 1.5rem;
+}
+.box {
+  /* background: tomato; */
+}
+ul.footer--list li {
+  list-style-type: none;
+  line-height: 1.6;
+}
+.icons i {
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+#third {
+  margin-bottom: 10px;
+}
+#signUp {
+  margin: 0.8rem 0;
+  display: flex;
+}
+#input {
+  padding: 7px;
+  background: #ddd;
+  flex: 2;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.sign--up {
+  flex: 0.7;
+  outline: none;
+  border: none;
+  background: blue;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+::placeholder {
+  font-size: 1rem;
+  padding: 5px;
+}
+.drop {
+  margin: 0.5rem;
+}
+#country,
+#Language {
+  background: #ddd;
+  outline: none;
+  border: none;
+  padding: 3px;
+}
+#country {
+  width: 150px;
+}
+#ableton {
+  margin: 4rem 4rem 3rem;
+  font-size: 5rem;
+}
+.footer--last {
+  width: 1140px;
+  margin: 3rem auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
 
+.list--last {
+  display: flex;
+  list-style: none;
+}
+.list--last li {
+  margin-right: 1rem;
+}
+.div--last {
+  display: flex;
+  align-items: center;
+}
+.div--last p {
+  margin-right: 0.6rem;
+}
 /* @keyframes fadeOut {
       from {
         opacity: 1;
